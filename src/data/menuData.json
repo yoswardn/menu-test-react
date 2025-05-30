@@ -1,0 +1,176 @@
+{
+  "restaurantName": "LOS CHEESY",
+  "socialMedia": {
+    "facebook": "Los Cheesy",
+    "instagram": "loscheesypr"
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "SMASH BURGERS",
+      "items": [
+        {
+          "name": "ONION SMASH",
+          "options": [
+            { "size": "DOBLE", "price": 9 },
+            { "size": "TRIPLE", "price": 12 }
+          ],
+          "description": "Doble Carne, Doble Queso, Cebolla, Salsa Smash."
+        },
+        {
+          "name": "BACON SMASH",
+          "options": [
+            { "size": "DOBLE", "price": 9 },
+            { "size": "TRIPLE", "price": 12 }
+          ],
+          "description": "Doble Carne, Doble Queso, Bacon, Cebolla, Salsa Smash."
+        },
+        {
+          "name": "DELUXE SMASH",
+          "options": [
+            { "size": "DOBLE", "price": 9 },
+            { "size": "TRIPLE", "price": 12 }
+          ],
+          "description": "Doble Carne, Doble Queso, Lechuga, Tomate, Cebolla, Salsa Smash."
+        },
+        {
+          "name": "BACON DELUXE SMASH",
+          "special": true,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "SANDWICHES",
+      "items": [
+        {
+          "name": "PHILLY CHEESESTEAK",
+          "price": 9,
+          "description": "Philly Steak, 3 Quesos, Pimiento, Cebolla."
+        },
+        {
+          "name": "CHICKEN PHILLY",
+          "price": 9,
+          "description": "Pollo, 3 Quesos, Pimiento y Cebolla"
+        },
+        {
+          "name": "TRIPLETA",
+          "price": 10,
+          "description": "Steak, Pollo, Carne Smash, Pimiento, Cebolla, Queso Rayado, Salsa Smash."
+        },
+        {
+          "name": "BACON",
+          "special": true,
+          "price": 1,
+          "description": ""
+        },
+        {
+          "name": "EXTRA CARNE",
+          "special": true,
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "NACHOS O PAPAS SUPREME",
+      "items": [
+        {
+          "name": "CHICKEN BACON",
+          "price": 12,
+          "description": "Pollo, Bacon, Queso Cheddar, Pico de Gallo, Salsa Smash, Sour Cream"
+        },
+        {
+          "name": "STEAK'N BACON",
+          "price": 12,
+          "description": "Philly Steak, Bacon, Queso Cheddar, Pimiento, Cebolla, Salsa Smash, Sour Cream"
+        },
+        {
+          "name": "BACON SMASH BURGERS",
+          "price": 10,
+          "description": "Carne Smash, Bacon, Queso Cheddar, Salsa Smash, Sour Cream"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "QUESADILLAS",
+      "items": [
+        {
+          "name": "CHICKEN BACON",
+          "price": 12,
+          "description": "Pollo, Queso Mixto, Bacon.",
+          "additional": "Pico de Gallo, Guacaole, sour Cream."
+        },
+        {
+          "name": "STEAK'N BACON",
+          "price": 12,
+          "description": "Steak, Pimiento, Cebolla, Queso Mixto, Bacon.",
+          "additional": "Pico de Gallo, Guacaole, sour Cream."
+        },
+        {
+          "name": "BACON SMASH BURGERS",
+          "price": 12,
+          "description": "Carne Smash, Queso Rayado, Bacon.",
+          "additional": "Pico de Gallo, Guacaole, sour Cream."
+        }
+      ]
+    }
+  ],
+  "sideSections": [
+    {
+      "name": "APERITIVOS",
+      "items": [
+        { "name": "NACHOS CON QUESO", "price": 5 },
+        { "name": "SORULLITOS", "price": 6 },
+        { "name": "QUESO FRITO", "price": 7 },
+        { "name": "MAZORCAS PARMESANA 2X", "price": 7 },
+        { "name": "MOZZARELLA STICKS", "price": 8 },
+        { "name": "ALITAS", "price": 9 },
+        { "name": "QUESO FUNDIDO (+CHORIZO)", "price": 9 },
+        { "name": "SURTIDO", "price": 25 }
+      ]
+    },
+    {
+      "name": "COMPLEMENTOS",
+      "items": [
+        { "name": "PAPAS REGULARES, PARMESANAS O CHEESY BACON", "price": null },
+        { "name": "NACHOS CHEESY", "price": null },
+        { "name": "MAZORCA PARMESANA", "price": null },
+        { "name": "MOZZARELLA STICKS", "price": null },
+        { "name": "SORULLITOS", "price": null }
+      ]
+    },
+    {
+      "name": "POSTRES",
+      "items": [
+        { "name": "MANTECADO DE OREO", "price": 4 },
+        { "name": "CHEESECAKE", "price": 5 },
+        { "name": "BATIDAS", "price": 5 },
+        { "name": "CHEESECAKE FRITO", "price": 8 }
+      ]
+    }
+  ],
+  "bottomSections": [
+    {
+      "name": "MENÚ DE NIÑOS",
+      "price": 10,
+      "description": "Cheesy Burguer ó Chicken Nuggets +Papas+Bebida"
+    },
+    {
+      "name": "Cheesy COMBO",
+      "description": "Complemento + Bebida"
+    },
+    {
+      "name": "BEBIDAS",
+      "items": [
+        { "name": "Agua", "price": 1 },
+        { "name": "Refrescos", "price": 2 },
+        { "name": "Jugos Naturales", "price": 4 },
+        { "name": "Batidas", "price": 5 },
+        { "name": "Piña Colada", "price": 6 }
+      ]
+    }
+  ]
+}

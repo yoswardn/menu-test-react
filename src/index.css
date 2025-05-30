@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+    font-family: 'Signika', sans-serif;
+  }
+}
+
+@layer components {
+  .menu-section {
+    @apply border-b border-cheesy-brown-light pb-4 mb-4 last:border-b-0;
+  }
+  
+  .menu-item {
+    @apply border-b border-cheesy-brown-light pb-2 last:border-b-0;
+  }
+}
